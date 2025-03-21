@@ -142,6 +142,11 @@ footer {
   nav > a.logo {
     text-align: center;
     width: 100%;
+    margin-bottom: 5%;
+  }
+
+  nav > a {
+    margin-top: 2%;
   }
 
   .hero {
@@ -149,18 +154,21 @@ footer {
   }
 
   main article {
-    padding: 2%;
+    padding: 4%;
+    margin-bottom: 2%;
   }
 
   main > article img {
-    width: 80%;
-    padding: 20px;
+    width: 60%;
+    padding: auto;
     float: none;
     display: block;
     margin: 0 auto;
   }
 
-
-
-
+  section.hero > .call-to-action {
+    font-size: 1.5rem;
+    font-weight: 600;
+    max-width: 65%;
+  }
 }
